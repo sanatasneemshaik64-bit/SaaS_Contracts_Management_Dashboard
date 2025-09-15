@@ -1,0 +1,51 @@
+{
+  "c1": {
+    "id": "c1",
+    "name": "MSA 2025",
+    "parties": "Microsoft & ABC Corp",
+    "start": "2023-01-01",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      { "title": "Termination", "summary": "90 days notice period required for contract termination.", "confidence": 0.82 },
+      { "title": "Liability Cap", "summary": "Total liability limited to 12 months' fees.", "confidence": 0.87 },
+      { "title": "Data Privacy", "summary": "GDPR compliance requirements and data handling procedures.", "confidence": 0.91 },
+      { "title": "Service Level Agreement", "summary": "99.9% uptime guarantee with penalty clauses.", "confidence": 0.85 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "Liability cap excludes data breach costs which could result in unlimited exposure." },
+      { "risk": "Medium", "message": "Auto-renewal clause activates unless cancelled 60 days before expiry." },
+      { "risk": "Low", "message": "Force majeure clause provides adequate protection for unforeseen circumstances." }
+    ],
+    "evidence": [
+      { "source": "Section 12.2", "snippet": "Total liability shall be limited to the aggregate fees paid by Customer in the twelve (12) months preceding the claim.", "relevance": 0.91 },
+      { "source": "Section 8.1", "snippet": "Either party may terminate this Agreement by providing ninety (90) days written notice.", "relevance": 0.88 },
+      { "source": "Section 15.3", "snippet": "This Agreement shall automatically renew for successive one-year terms unless terminated.", "relevance": 0.84 }
+    ]
+  },
+  "c2": {
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "start": "2022-10-10",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      { "title": "Service Credits", "summary": "Monthly credits for downtime exceeding SLA thresholds.", "confidence": 0.79 },
+      { "title": "Bandwidth Allocation", "summary": "Guaranteed minimum bandwidth with burst capacity.", "confidence": 0.92 },
+      { "title": "Security Requirements", "summary": "End-to-end encryption and security monitoring obligations.", "confidence": 0.86 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "No liability cap specified for security breaches or data loss incidents." },
+      { "risk": "High", "message": "Termination requires 180 days notice which limits flexibility." },
+      { "risk": "Medium", "message": "Price increases allowed with only 30 days notice." }
+    ],
+    "evidence": [
+      { "source": "Section 4.2", "snippet": "Provider shall maintain minimum bandwidth of 100 Mbps with burst capacity up to 1 Gbps.", "relevance": 0.95 },
+      { "source": "Section 11.1", "snippet": "Either party may terminate with one hundred eighty (180) days written notice.", "relevance": 0.89 },
+      { "source": "Section 7.3", "snippet": "Service credits equal to pro-rated monthly fees for each hour of downtime.", "relevance": 0.82 }
+    ]
+  }
+}

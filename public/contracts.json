@@ -1,0 +1,98 @@
+[
+  {
+    "id": "c1",
+    "name": "MSA 2025",
+    "parties": "Microsoft & ABC Corp",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High"
+  },
+  {
+    "id": "c3",
+    "name": "Cloud Infrastructure Contract",
+    "parties": "AWS & ABC Corp",
+    "expiry": "2024-06-15",
+    "status": "Expired",
+    "risk": "Low"
+  },
+  {
+    "id": "c4",
+    "name": "Software License Agreement",
+    "parties": "Oracle & ABC Corp",
+    "expiry": "2025-03-20",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c5",
+    "name": "Support Services Contract",
+    "parties": "IBM & ABC Corp",
+    "expiry": "2025-01-15",
+    "status": "Renewal Due",
+    "risk": "Low"
+  },
+  {
+    "id": "c6",
+    "name": "Data Processing Agreement",
+    "parties": "Salesforce & ABC Corp",
+    "expiry": "2026-08-30",
+    "status": "Active",
+    "risk": "High"
+  },
+  {
+    "id": "c7",
+    "name": "Marketing Services MSA",
+    "parties": "HubSpot & ABC Corp",
+    "expiry": "2024-11-12",
+    "status": "Expired",
+    "risk": "Medium"
+  },
+  {
+    "id": "c8",
+    "name": "Security Audit Contract",
+    "parties": "CrowdStrike & ABC Corp",
+    "expiry": "2025-09-05",
+    "status": "Active",
+    "risk": "Low"
+  },
+  {
+    "id": "c9",
+    "name": "Development Partnership",
+    "parties": "GitHub & ABC Corp",
+    "expiry": "2025-07-22",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c10",
+    "name": "Analytics Platform License",
+    "parties": "Tableau & ABC Corp",
+    "expiry": "2025-02-28",
+    "status": "Renewal Due",
+    "risk": "High"
+  },
+  {
+    "id": "c11",
+    "name": "Communication Services Agreement",
+    "parties": "Slack & ABC Corp",
+    "expiry": "2026-04-18",
+    "status": "Active",
+    "risk": "Low"
+  },
+  {
+    "id": "c12",
+    "name": "Infrastructure Monitoring",
+    "parties": "Datadog & ABC Corp",
+    "expiry": "2024-12-03",
+    "status": "Expired",
+    "risk": "Medium"
+  }
+]
